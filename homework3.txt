@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class Dz {
+
+    public static void main(String[] args) {
+         String[] words = {"home", "road", "pet", "bird", "coffe", "coffe", "doll", "bird", "road", "coffe"};
+
+        Map<String, Integer> map = new HashMap<>();
+        for (String word : words) {
+           
+        }
+       
+        System.out.println(map);
+        
+
+        Set<String> uniq = new HashSet<>(Arrays.asList(words));
+        System.out.println(uniq);
+        
+
+              
+    }
+    
+}
